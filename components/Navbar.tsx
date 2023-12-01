@@ -44,7 +44,7 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#" className="text-sm font-semibold leading-6 text-white">
               Log in <span aria-hidden="true">&rarr;</span>
             </a>
           </div>
@@ -63,7 +63,7 @@ const Navbar = () => {
               </a>
               <button
                 type="button"
-                className="-m-2.5 rounded-md p-2.5 text-white"
+                className="-m-2.5 rounded-md p-2.5 text-black"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 <span className="sr-only">Close menu</span>
@@ -98,9 +98,6 @@ const Navbar = () => {
       </header>
 
       <div className="relative isolate px-6 pt-14 lg:px-8">
-
-          <div className="bg-hero aspect-[1155/678] absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden  sm:-top-80 opacity-100 bg-no-repeat bg-cover bg-center "/>
-
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -132,10 +129,18 @@ const Navbar = () => {
             </div>
           </div>
         </div>
+                  {/* hero section image */}
+
+                  <div className='bg-hero object-scale-down  lg:aspect-[1155/678] md:aspect-[655/178] absolute inset-x-0 -top-40 -z-10 transform-gpu  sm:-top-80 opacity-100  bg-cover'/>
+
+{/* hero section image */}
 
       </div>
                   
+      <div className="">
+        <img className="bg-hero object-contain h-40 w-40"/>
 
+      </div>
     </div>
 
     
