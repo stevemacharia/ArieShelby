@@ -97,7 +97,10 @@ const Navbar = () => {
         </Dialog>
       </header>
 
-      <div className="relative isolate px-6 pt-14 lg:px-8">
+      <div className="relative isolate ">
+
+        <section className="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat w-full">
+
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
@@ -129,19 +132,9 @@ const Navbar = () => {
             </div>
           </div>
         </div>
-                  {/* hero section image */}
-
-                  <div className='bg-hero object-scale-down  lg:aspect-[1155/678] md:aspect-[655/178] absolute inset-x-0 -top-40 -z-10 transform-gpu  sm:-top-80 opacity-100  bg-cover'/>
-
-{/* hero section image */}
-
-      </div>
-                  
-      <div className="">
-        <img className="bg-hero object-contain h-40 w-40"/>
-
-      </div>
-    </div>
+        </section>
+      </div>   
+  </div>
 
     
 
