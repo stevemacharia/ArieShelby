@@ -4,10 +4,10 @@ import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'Product', href: '#' },
-  { name: 'Features', href: '#' },
-  { name: 'Marketplace', href: '#' },
-  { name: 'Company', href: '#' },
+  { name: 'Solutions', href: '#' },
+  { name: 'Photography', href: '#' },
+  { name: 'About us', href: '#' },
+  { name: 'Other Services', href: '#' },
 ]
 
 const Navbar = () => {
@@ -15,10 +15,10 @@ const Navbar = () => {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
+        <nav className="flex items-center justify-between p-6 lg:px-8 backdrop-blur-sm" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">ARIE SHELBY</span>
               <img
                 className="h-8 w-auto"
                 src="/AS_LOGO.png"
@@ -36,16 +36,16 @@ const Navbar = () => {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex lg:gap-x-12">
+          <div className="hidden lg:flex lg:gap-x-12 ">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-white">
+              <a key={item.name} href={item.href} className="text-sm  hover:font-bold hover:text-yellow2 font-semibold leading-6 text-white">
                 {item.name}
               </a>
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
             <a href="#" className="text-sm font-semibold leading-6 text-white">
-              Log in <span aria-hidden="true">&rarr;</span>
+              Contact Us
             </a>
           </div>
         </nav>
@@ -55,11 +55,7 @@ const Navbar = () => {
             <div className="flex items-center justify-between">
               <a href="#" className="-m-1.5 p-1.5">
                 <span className="sr-only">ARIESHELBY</span>
-                <img
-                  className="h-8 w-auto"
-                  src="/AS_LOGO_BLACK.png"
-                  alt=""
-                />
+                <img className="h-8 w-auto" src="/AS_LOGO_BLACK.png" alt="" />
               </a>
               <button
                 type="button"
@@ -99,21 +95,13 @@ const Navbar = () => {
 
       <div className="relative isolate ">
 
-        <section className="relative bg-[url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80)] bg-cover bg-center bg-no-repeat w-full">
+        <section className="relative bg-hero bg-cover bg-center bg-no-repeat w-full">
 
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
-          <div className="hidden sm:mb-8 sm:flex sm:justify-center">
-            <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{' '}
-              <a href="#" className="font-semibold text-indigo-600">
-                <span className="absolute inset-0" aria-hidden="true" />
-                Read more <span aria-hidden="true">&rarr;</span>
-              </a>
-            </div>
-          </div>
+
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-              Data to enrich your online business
+              We create tailor made solutions for your business
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
               Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
