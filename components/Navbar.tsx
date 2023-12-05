@@ -2,6 +2,7 @@
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Button } from '@material-tailwind/react';
 
 const navigation = [
   { name: 'Solutions', href: '#' },
@@ -44,9 +45,13 @@ const Navbar = () => {
             ))}
           </div>
           <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-            <a href="#" className="text-sm font-semibold leading-6 text-white">
+            <Button variant="filled" className="flex items-center gap-3 hover:text-yellow2">
               Contact Us
-            </a>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" className="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M10.5 1.5H8.25A2.25 2.25 0 006 3.75v16.5a2.25 2.25 0 002.25 2.25h7.5A2.25 2.25 0 0018 20.25V3.75a2.25 2.25 0 00-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3" />
+              </svg>
+
+            </Button>
           </div>
         </nav>
         <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
@@ -104,8 +109,7 @@ const Navbar = () => {
               We create tailor made solutions for your business
             </h1>
             <p className="mt-6 text-lg leading-8 text-white">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+            Join us on a journey where innovation knows no bounds, and design is not just a form but a function in itself. Welcome to Arieshelby, where we don't just build solutions; we sculpt experiences that resonate with the essence of individuality.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

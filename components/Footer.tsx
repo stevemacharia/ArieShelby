@@ -13,7 +13,7 @@ const Footer = () => {
               as="a"
               href="#"
               color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-blue-500"
+              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
             >
               Solutions
             </Typography>
@@ -23,7 +23,7 @@ const Footer = () => {
               as="a"
               href="#"
               color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-blue-500"
+              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
             >
               Photography
             </Typography>
@@ -33,7 +33,7 @@ const Footer = () => {
               as="a"
               href="#"
               color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-blue-500"
+              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
             >
               About Us
             </Typography>
@@ -43,7 +43,7 @@ const Footer = () => {
               as="a"
               href="#"
               color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-blue-500"
+              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
             >
               Other Services
             </Typography>
