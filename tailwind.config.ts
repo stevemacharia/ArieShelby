@@ -29,6 +29,7 @@ module.exports = {
           50: '#FEC601',
         },
         'yellow2': '#ce953a',
+        'as-green':'#185319',
       },
       backgroundImage: {
         "hero": "url(/as_backgroound_green.jpg)",
