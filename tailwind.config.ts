@@ -33,6 +33,7 @@ module.exports = {
       },
       backgroundImage: {
         "hero": "url(/as_backgroound_green.jpg)",
+        "client_hero": "url(/arieshelby_mockup_3.png)",
       },
       screens: {
         xs: '400px',
