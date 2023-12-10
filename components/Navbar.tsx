@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <div className="bg-white">
       <header className="absolute inset-x-0 top-0 z-50">
-        <nav className="flex items-center justify-between p-6 lg:px-8 backdrop-blur-sm" aria-label="Global">
+        <nav className="flex items-center drop-shadow-xl justify-between p-6 lg:px-8 backdrop-blur-sm" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
               <span className="sr-only">ARIE SHELBY</span>
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-12 ">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-sm  font-bold hover:text-yellow2 font-semibold leading-6 text-white">
+              <a key={item.name} href={item.href} className="text-md font-semibold hover:text-yellow2 hover:font-bold leading-6 text-white">
                 {item.name}
               </a>
             ))}
@@ -98,37 +98,6 @@ const Navbar = () => {
         </Dialog>
       </header>
 
-      <div className="relative isolate ">
-        <section className="relative bg-hero bg-cover bg-center bg-no-repeat w-full">
-          <div className="grid sm:grid-cols-1 md:grid-cols-2 grid-flow-col justify-start">   
-            <div className="md:basis-1/2 mx-left md:ps-20 md:ms-20 max-w-2xl py-32 sm:py-48 lg:py-56">
-              <div className="md:text-start">
-                <h1 className="text-4xl font-bold tracking-tight text-white sm:text-6xl">
-                  We create tailor made solutions for your business
-                </h1>
-                <p className="mt-6 text-lg leading-8 text-white">
-                Join us on a journey where innovation knows no bounds, and design is not just a form but a function in itself. Welcome to Arieshelby, where we don't just build solutions; we sculpt experiences that resonate with the essence of individuality.
-                </p>
-                <div className="mt-10 flex items-start justify-start gap-x-6">
-                  <a
-                    href="#"
-                    className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-                  >
-                    Get started
-                  </a>
-                  <a href="#" className="text-sm font-semibold leading-6 text-white">
-                    Learn more <span aria-hidden="true">→</span>
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className='basis-1/2'>
-                  <div className='bg-client_hero bg-no-repeat bg-center pe-16 me-16 object-scale-down w-full h-full'></div>
-            </div>
-
-          </div>
-        </section>
-      </div>   
   </div>
 
     
