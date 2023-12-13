@@ -13,22 +13,22 @@ import {
 
 const callouts = [
     {
-      name: 'Desk and Office',
-      description: 'Work from home accessories',
-      imageSrc: '/as_photography.jpg',
+      name: 'Web & System Development',
+      description: 'Solutions & Innovations',
+      imageSrc: '/as_web_development.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: '#',
     },
     {
-      name: 'Self-Improvement',
-      description: 'Journals and note-taking',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-02.jpg',
+      name: 'Visual Media',
+      description: 'Photography & Cinematography',
+      imageSrc: '/as_photography.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: '#',
     },
     {
-      name: 'Travel',
-      description: 'Daily commute essentials',
+      name: 'What we offer',
+      description: 'Other Services',
       imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '#',
