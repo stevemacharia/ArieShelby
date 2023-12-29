@@ -13,7 +13,7 @@ const Hero = () => {
                   We create tailor made solutions for your business
                 </h1>
                 <p className="mt-6 md:text-lg text-sm  text-white">
-                Join us on a journey where innovatiDon knows no bounds, and design is not just a form but a function in itself. Welcome to Arieshelby, where we don't just build solutions; we sculpt experiences that resonate with the essence of individuality.
+                Join us on a journey where innovation knows no bounds, and design is not just a form but a function in itself. Welcome to Arieshelby, where we don't just build solutions; we sculpt experiences that resonate with the essence of individuality.
                 </p>
                 <div className="mt-10 flex md:items-start md:justify-start  items-center justify-center gap-x-6">
                   <a href="#"className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-as-green shadow-sm hover:bg-yellow2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">

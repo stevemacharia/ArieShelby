@@ -51,8 +51,8 @@ const Header = () => {
       <div className="mx-auto">
         <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6x text-center">Work with us</h2>
         <p className="mt-6 text-lg leading-8 text-gray-300 text-center">
-          Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-          fugiat veniam occaecat fugiat aliqua.
+        Choose Arieshelby as your trusted partner in personalized tech and design solutions, where we specialize in elevating your digital experience through tailor-made solutions crafted with expertise and innovation
+        Entrust your digital journey to Arieshelby, where your satisfaction and success are our top priorities.
         </p>
       </div>
     
