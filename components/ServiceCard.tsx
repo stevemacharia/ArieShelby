@@ -22,7 +22,7 @@ const callouts = [
     {
       name: 'Visual Media',
       description: 'Photography & Cinematography',
-      imageSrc: '/as_photography.jpg',
+      imageSrc: '/as_photogrphy.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
       href: '#',
     },
