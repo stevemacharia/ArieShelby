@@ -13,8 +13,8 @@ import {
 
 const callouts = [
     {
-      name: 'Web & System Development',
-      description: 'Solutions & Innovations',
+      name: 'Solutions & Innovations',
+      description: 'Web & System Development',
       imageSrc: '/as_web_development.png',
       imageAlt: 'Desk with leather desk pad, walnut desk organizer, wireless keyboard and mouse, and porcelain mug.',
       href: '#',
@@ -27,9 +27,9 @@ const callouts = [
       href: '#',
     },
     {
-      name: 'What we offer',
-      description: 'Other Services',
-      imageSrc: 'https://tailwindui.com/img/ecommerce-images/home-page-02-edition-03.jpg',
+      name: 'Our design speaks your brand language  ',
+      description: 'Branding & Design',
+      imageSrc: '/arieshelby_branding_and_design.jpg',
       imageAlt: 'Collection of four insulated travel bottles on wooden shelf.',
       href: '#',
     },
