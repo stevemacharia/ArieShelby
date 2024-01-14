@@ -24,7 +24,7 @@ const callouts = [
       description: 'Photography & Cinematography',
       imageSrc: '/as_photogrphy.jpg',
       imageAlt: 'Wood table with porcelain mug, leather journal, brass pen, leather key ring, and a houseplant.',
-      href: '#',
+      href: '/VisualMedia',
     },
     {
       name: 'Our design speaks your brand language  ',
@@ -41,7 +41,7 @@ const ServiceCard = () => {
   return (
       <>
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl lg:max-w-none">
           <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
