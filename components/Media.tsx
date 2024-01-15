@@ -56,8 +56,8 @@ const Media = () => {
         </div>
 
         <div className='py-10 my-10'>
-            <h2 className='md:text-3xl text-2xl text-as-green text-center font-bold pt-2'>Gallery</h2>
-            <p className="text-sm leading-8 pb-10 text-gray-400 text-center font-medium italic pb-2">Moments captured through our lens</p>
+            <h2 className='md:text-4xl text-4xl text-as-green text-center font-bold pt-2'>Gallery</h2>
+            <p className="text-sm leading-8 pb-10 text-gray-400 text-center font-medium italic pb-5">Moments captured through our lens</p>
             <Gallery/>
         </div>
 
