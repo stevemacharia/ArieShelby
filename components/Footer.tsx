@@ -11,7 +11,7 @@ const Footer = () => {
           <li>
             <Typography
               as="a"
-              href="#"
+              href="/WebDevelopment"
               color="blue-gray"
               className="font-normal transition-colors hover:font-bold focus:text-yellow2"
             >
@@ -21,7 +21,7 @@ const Footer = () => {
           <li>
             <Typography
               as="a"
-              href="#"
+              href="/VisualMedia"
               color="blue-gray"
               className="font-normal transition-colors hover:font-bold focus:text-yellow2"
             >
