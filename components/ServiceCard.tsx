@@ -1,16 +1,3 @@
-
-import {
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    Typography,
-    Avatar,
-    Tooltip,
-  } from "@material-tailwind/react";
-   
-
-
 const callouts = [
     {
       name: 'Solutions & Innovations',
