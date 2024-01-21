@@ -34,7 +34,7 @@ const WorkDone = () => {
       <div className='mx-auto items-center gap-x-8 gap-y-16 px-4 lg:pt-24 pt-6 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8  divide-y divide-as-green'>
         <div className="bg-white">
           <div className='mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:pt-24 pt-6 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8'>   
-            <h2 className='md:text-5xl text-2xl text-as-green text-left font-bold'>Work Done..</h2>
+            <h2 className='md:text-4xl text-2xl text-as-green text-left font-bold'>Work Done..</h2>
           </div>
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-2 sm:px-6 sm:py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
@@ -58,7 +58,7 @@ const WorkDone = () => {
             <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
               <img
                 src="/arieshelby_masomo_portal_001.png"
-                alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+                alt="arieshelby_masomoportal."
                 className="rounded-lg bg-gray-100 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
             </div>
@@ -87,7 +87,7 @@ const WorkDone = () => {
             <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
               <img
                 src="/alexadashcams_01.png"
-                alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+                alt="arieshelby_alexadashcams"
                 className="rounded-lg bg-gray-100 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
             </div>
@@ -115,7 +115,7 @@ const WorkDone = () => {
             <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
               <img
                 src="/arieshelby_zamilfarms.png"
-                alt="Walnut card tray with white powder coated steel divider and 3 punchout holes."
+                alt="arieshelb_zamilfarms"
                 className="rounded-lg bg-gray-100 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
              

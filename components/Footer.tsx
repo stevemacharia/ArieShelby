@@ -41,7 +41,7 @@ const Footer = () => {
           <li>
             <Typography
               as="a"
-              href="#"
+              href="/OtherServices"
               color="blue-gray"
               className="font-normal transition-colors hover:font-bold focus:text-yellow2"
             >

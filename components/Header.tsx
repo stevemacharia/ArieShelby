@@ -1,6 +1,8 @@
+"use client";
 import React from 'react'
+import { Button } from "@material-tailwind/react";
 
-const links = [
+  const links = [
     { name: 'Open roles', href: '#' },
     { name: 'Internship program', href: '#' },
     { name: 'Our values', href: '#' },
@@ -47,13 +49,17 @@ const Header = () => {
         }}
       />
     </div>
-    <div className="mx-auto max-w-7xl backdrop-blur-sm backdrop-brightness-50 p-6 rounded lg:px-8">
+    <div className="mx-auto max-w-7xl backdrop-blur-sm backdrop-brightness-50 p-6 rounded-lg lg:px-8">
       <div className="mx-auto">
-        <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6x text-center">Work with us </h2>
-        <p className="mt-6 text-lg leading-8 text-gray-300 text-center">
-        Choose Arieshelby as your trusted partner in personalized tech and design solutions, where we specialize in elevating your digital experience through tailor-made solutions crafted with expertise and innovation
-        Entrust your digital journey to Arieshelby, where your satisfaction and success are our top priorities.
-        </p>
+          <h2 className="text-4xl font-bold tracking-tight text-white sm:text-6x text-center">Work with us </h2>
+          <p className="mt-6 text-lg leading-8 text-gray-300 text-center">
+          Choose Arieshelby as your trusted partner in personalized tech and design solutions, where we specialize in elevating your digital experience through tailor-made solutions crafted with expertise and innovation
+          Entrust your digital journey to Arieshelby, where your satisfaction and success are our top priorities.
+          </p>
+          <h2 className="text-2xl pt-4 pb-2 font-bold tracking-tight text-as-yellow sm:text-6x text-center">You can reach us through:</h2>
+          <div className="flex justify-center">
+            <Button className="rounded-full justify-center bg-as-yellow text-white font-bold text-1xl lowercase">info@arieshelby.com || 0711253491</Button>
+          </div>
       </div>
     
     </div>

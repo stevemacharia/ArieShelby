@@ -5,10 +5,10 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { Button } from '@material-tailwind/react';
 
 const navigation = [
-  { name: 'Solutions', href: '/WebDevelopment' },
-  { name: 'Photography', href: '/VisualMedia' },
+  { name: 'IT Solutions', href: '/WebDevelopment' },
+  { name: 'Media', href: '/VisualMedia' },
+  { name: 'Other Services', href: '/OtherServices' },
   { name: 'About us', href: '#' },
-  { name: 'Other Services', href: '#' },
 ]
 
 const Navbar = () => {
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
           <div className="hidden lg:flex lg:gap-x-12 ">
             {navigation.map((item) => (
-              <a key={item.name} href={item.href} className="text-md font-semibold hover:text-yellow2 hover:font-bold leading-6 text-white">
+              <a key={item.name} href={item.href} className="text-md font-semibold hover:text-yellow2 hover:font-bold leading-6 hover:text-as-yellow text-white">
                 {item.name}
               </a>
             ))}
