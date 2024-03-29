@@ -58,7 +58,7 @@ const Header = () => {
           </p>
           <h2 className="text-2xl pt-4 pb-2 font-bold tracking-tight text-as-yellow sm:text-6x text-center">You can reach us through:</h2>
           <div className="flex justify-center">
-            <Button className="rounded-full justify-center bg-as-yellow text-white font-bold text-1xl lowercase">info@arieshelby.com || 0711253491</Button>
+            <Button className="rounded-full justify-center bg-as-yellow text-white font-bold text-1xl lowercase">info@arieshelby.com || 0745099932</Button>
           </div>
       </div>
     
