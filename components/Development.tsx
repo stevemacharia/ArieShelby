@@ -40,13 +40,13 @@ const Development = () => {
     <div>
       <div className='mx-auto items-center gap-x-8 gap-y-16 px-8 lg:pt-24 pt-6 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8'>
           <div className='mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 lg:max-w-7xl lg:grid-cols-2 '>   
-            <h2 className='md:text-4xl text-2xl text-as-green text-left font-bold'>Our Exclusive IT Solutions </h2>
+            <h2 className='md:text-4xl text-2xl text-as-green text-left font-bold'>Our IT Solutions </h2>
           </div>
       </div>
 
       <div className='pt-12 mx-auto items-center  px-8 sm:px-8 lg:max-w-7xl lg:grid-cols-2 lg:px-8 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0'>
         {TechServices.map((TechService) => (
-          <Card className="max-w-[24rem] overflow-hidden">
+          <Card key={TechService.name} className="max-w-[24rem] overflow-hidden">
             <CardHeader
               floated={false}
               shadow={false}
@@ -61,7 +61,7 @@ const Development = () => {
               <Typography variant="h4" color="blue-gray">
                {TechService.name}
               </Typography>
-              <Typography variant="lead" color="gray" className="text-wrap text-base">
+              <Typography variant="lead" color="gray" className="text-wrap font-normal text-sm">
                   {TechService.description}
               </Typography>
             </CardBody>

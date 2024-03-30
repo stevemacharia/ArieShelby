@@ -10,12 +10,21 @@ const OurWork = () => {
           Trusted by the world’s most innovative teams
         </h2> */}
         <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
+          
+          <a href='/OtherServices'><img
+            className="col-span-2 object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
+            src="/arieshelby-caritas-mfb-logo.png"
+            alt="SavvyCal"
+            width={148}
+            height={38}
+          /></a>
+          
           <a href='https://qsolutionllc.com'><img
             className="col-span-2 object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
             src="/qsolution_logo.png"
             alt="SavvyCal"
-            width={128}
-            height={18}
+            width={118}
+            height={8}
           /></a>
           <a href='https://masomoportal.com'><img
             className="col-span-2  object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"

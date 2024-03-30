@@ -8,7 +8,7 @@ const navigation = [
   { name: 'IT Solutions', href: '/WebDevelopment' },
   { name: 'Media', href: '/VisualMedia' },
   { name: 'Other Services', href: '/OtherServices' },
-  { name: 'About us', href: '#' },
+  { name: 'About us', href: '/' },
 ]
 
 const Navbar = () => {

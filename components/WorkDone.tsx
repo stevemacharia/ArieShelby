@@ -51,7 +51,7 @@ const WorkDone = () => {
             <div>
               <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">01. Q Solution LLC</h2>
               <p className="mt-4 text-gray-500">
-              QSolution's corporate website specializes in consultancy services, offering tailored solutions for clients' needs. It serves as a comprehensive platform, providing insights and resources to optimize business strategies and foster growth.
+              QSolution&aposs corporate website specializes in consultancy services, offering tailored solutions for clients&apos needs. It serves as a comprehensive platform, providing insights and resources to optimize business strategies and foster growth.
               </p>
               <p className="mt-4 text-gray-500">
               Link: <a className="text-blue-700 hover:font-bold" href='https://qsolutionllc.com' >qsolutionllc.com</a>
