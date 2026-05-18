@@ -1,65 +1,37 @@
-import React from 'react'
+import { CLIENTS } from '@/constants'
 
 const OurWork = () => {
   return (
-    
-    <div className="bg-white py-24 sm:py-32">
+    <section className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className='md:text-5xl text-3xl text-as-green text-center font-bold pt-2'>Our Work</h2>
-        {/* <h2 className="text-center text-lg font-semibold leading-8 text-gray-900 pt-4">
-          Trusted by the world’s most innovative teams
-        </h2> */}
-        <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-4 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-4">
-          
-          <a href='/OtherServices'><img
-            className="col-span-2 object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
-            src="/arieshelby-caritas-mfb-logo.png"
-            alt="SavvyCal"
-            width={148}
-            height={38}
-          /></a>
-          
-          <a href='https://qsolutionllc.com'><img
-            className="col-span-2 object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
-            src="/qsolution_logo.png"
-            alt="SavvyCal"
-            width={118}
-            height={8}
-          /></a>
-          <a href='https://masomoportal.com'><img
-            className="col-span-2  object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
-            src="/masomoportal_logo.png"
-            alt="Transistor"
-            width={148}
-            height={38}
-          /></a>
-          <a href='https://alexadashcams.co.ke'><img
-            className="col-span-2  object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
-            src="/alexa-dashcam-logo.png"
-            alt="Reform"
-            width={178}
-            height={68}
-          /></a>
-          <a href='https://zamilfarms.com'><img
-            className="col-span-2  object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
-            src="/zamil_farms_logo.png"
-            alt="Tuple"
-            width={158}
-            height={48}
-          /></a>
-          <a href='https://greeneseal.com'><img
-            className="col-span-2 object-contain lg:col-span-1 hover:scale-150 transition duration-500 cursor-pointer object-cover"
-            src="/greeneseal_limited.png"
-            alt="SavvyCal"
-            width={178}
-            height={68}
-          /></a>
-          
+        <div className="text-center">
+          <p className="section-label">Trusted by</p>
+          <h2 className="section-heading mt-4">Clients we&apos;ve built for</h2>
+          <p className="section-subheading mx-auto">
+            Businesses across finance, education, e-commerce, and agriculture
+            rely on systems and brands we&apos;ve delivered.
+          </p>
+        </div>
+
+        <div className="mx-auto mt-16 grid max-w-4xl grid-cols-2 items-center gap-x-12 gap-y-10 sm:grid-cols-3 lg:grid-cols-6">
+          {CLIENTS.map((client) => (
+            <a
+              key={client.name}
+              href={client.href}
+              target={client.href.startsWith('http') ? '_blank' : undefined}
+              rel={client.href.startsWith('http') ? 'noopener noreferrer' : undefined}
+              className="flex items-center justify-center opacity-80 transition-all duration-300 hover:scale-110 hover:opacity-100"
+            >
+              <img
+                src={client.logo}
+                alt={client.name}
+                className="max-h-12 w-auto object-contain"
+              />
+            </a>
+          ))}
         </div>
       </div>
-    </div>
-
-
+    </section>
   )
 }
 

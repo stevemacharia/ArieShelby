@@ -1,38 +1,62 @@
-import React from 'react'
-import { CloudArrowUpIcon, LockClosedIcon, ServerIcon } from '@heroicons/react/20/solid'
+import { CAPABILITIES } from '@/constants'
 
 const Aboutus = () => {
   return (
+    <section id="about" className="relative overflow-hidden bg-white py-24 sm:py-32">
+      <div className="absolute inset-0 grid-bg opacity-40" />
+      <div className="relative mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="max-w-2xl">
+          <p className="section-label">About Arieshelby</p>
+          <h2 className="section-heading mt-4">
+            Technology meets creative excellence
+          </h2>
+          <p className="section-subheading">
+            We are a Nairobi-based digital studio specializing in software
+            engineering, brand design, and visual media. From concept to
+            deployment, we build systems and experiences that help businesses
+            operate smarter and connect with their audiences.
+          </p>
+        </div>
 
-    <div className="relative isolate overflow-hidden bg-white px-6 py-16 sm:py-12 lg:overflow-visible lg:px-0">
-    <h2 className='md:text-5xl text-3xl text-as-green text-center font-bold pt-12'>About Us</h2>
-    <p className="text-sm leading-8 text-gray-400 text-center font-medium italic pb-9">Tailored Tech, Crafted Design. Crafting Solutions as Unique as You</p>
-    <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-      <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-        <div className="lg:pr-4">
-          <div className="lg:max-w-lg">
-            <p className="text-base font-semibold leading-7 hover:font-bold text-yellow2">Background</p>
-            <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Defining Innovation, Designing Excellence</h1>
-            <p className="mt-6 text-base leading-7 text-gray-700">
-            Welcome to Arieshelby, your go-to destination for personalized tech and design solutions. At Arieshelby, we specialize in creating tailor-made solutions to elevate your digital experience. Our team combines expertise in technology and design to bring your unique vision to life. Discover the perfect blend of innovation and customization with Arieshelby – your partner for bespoke solutions that stand out. Explore the possibilities and unlock tailored excellence with us.
+        <div className="mt-16 grid gap-8 lg:grid-cols-2 lg:gap-16">
+          <div className="space-y-6">
+            <p className="text-base leading-relaxed text-gray-600">
+              Our team combines full-stack development expertise with sharp
+              design thinking. Whether you need a production-ready web platform,
+              a mobile application, or a complete brand identity, we deliver
+              solutions engineered for performance and built to last.
+            </p>
+            <p className="text-base leading-relaxed text-gray-600">
+              We partner with startups, enterprises, and institutions across
+              Kenya and beyond — translating complex requirements into clean,
+              scalable digital products.
             </p>
           </div>
+          <div className="relative overflow-hidden rounded-2xl border border-primary/10 shadow-md">
+            <img
+              className="aspect-[4/3] w-full object-cover"
+              src="/as_about_us.jpg"
+              alt="Arieshelby team at work"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent" />
+          </div>
+        </div>
+
+        <div className="mt-20 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {CAPABILITIES.map((cap) => (
+            <div key={cap.title} className="glass-card p-6">
+              <span className="text-sm font-bold text-primary">{cap.icon}</span>
+              <h3 className="mt-4 text-lg font-semibold text-gray-900">
+                {cap.title}
+              </h3>
+              <p className="mt-2 text-sm leading-relaxed text-gray-600">
+                {cap.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
-      <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-        <img
-          className="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]"
-          src="/as_about_us.jpg"
-          alt=""
-        />
-      </div>
-
-    </div>
-  </div>
-
-
-
-
+    </section>
   )
 }
 

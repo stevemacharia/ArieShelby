@@ -1,17 +1,20 @@
-import React from 'react'
 import ServiceCard from './ServiceCard'
 
 const Services = () => {
   return (
-    <>
-    <div className="relative isolate overflow-hidden bg-white px-6 py-4 sm:py-4  lg:overflow-visible lg:px-0">
-        <div className="container mx-auto sm:px-2">
-          <h2 className='md:text-5xl text-3xl text-as-green text-center font-bold pt-2'>Our Services</h2>
-          <p className="text-sm leading-8 text-gray-400 text-center font-medium italic pb-2">What we offer</p>
-          <ServiceCard/>
+    <section id="services" className="bg-tech-bg py-24 sm:py-32">
+      <div className="mx-auto max-w-7xl px-6 lg:px-8">
+        <div className="max-w-2xl">
+          <p className="section-label">What we do</p>
+          <h2 className="section-heading mt-4">End-to-end digital capabilities</h2>
+          <p className="section-subheading">
+            From engineering production systems to shaping brand identities and
+            producing visual content — we cover the full digital lifecycle.
+          </p>
         </div>
-    </div>
-    </>
+        <ServiceCard />
+      </div>
+    </section>
   )
 }
 

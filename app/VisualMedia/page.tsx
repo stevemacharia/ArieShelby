@@ -1,10 +1,10 @@
+import MediaPortfolio from '@/components/portfolio/MediaPortfolio'
 
-import Media from '@/components/Media'
+export const metadata = {
+  title: 'Creative Media | Arieshelby',
+  description: 'Photography, video, and commercial visual content portfolio.',
+}
 
-export default function VisualMedia(){
-    return(     
-    <>
-    <Media/>
-    </>
-    )
+export default function VisualMediaPage() {
+  return <MediaPortfolio />
 }

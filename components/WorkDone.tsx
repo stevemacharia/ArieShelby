@@ -1,6 +1,4 @@
 import React from 'react'
-import { Typography } from "@material-tailwind/react";
-import Development from '@/components/Development'
 
 const features_qsolutionllc = [
   { name: 'Corporate site', description: '' },
@@ -41,27 +39,28 @@ const WorkDone = () => {
     <div>
 
       <div className='mx-auto items-center gap-x-8 gap-y-16 px-4 lg:pt-24 pt-6 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8  divide-y divide-as-green'>
-        <div className="bg-white">
+        <div className="bg-tech-bg">
           <div className='mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 lg:pt-24 pt-6 sm:px-6 lg:max-w-7xl lg:grid-cols-2 lg:px-8'>   
-            <h2 className='md:text-4xl text-2xl text-as-green text-left font-bold'>Work Done..</h2>
+            <p className="section-label">Portfolio</p>
+            <h2 className="section-heading mt-4">Selected projects</h2>
           </div>
 
 
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-2 sm:px-6 sm:py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
               <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">01. Q Solution LLC</h2>
-              <p className="mt-4 text-gray-500">
+              <p className="mt-4 text-gray-600">
               QSolution&aposs corporate website specializes in consultancy services, offering tailored solutions for clients&apos needs. It serves as a comprehensive platform, providing insights and resources to optimize business strategies and foster growth.
               </p>
-              <p className="mt-4 text-gray-500">
-              Link: <a className="text-blue-700 hover:font-bold" href='https://qsolutionllc.com' >qsolutionllc.com</a>
+              <p className="mt-4 text-gray-600">
+              Link: <a className="text-primary hover:font-bold" href='https://qsolutionllc.com' >qsolutionllc.com</a>
               </p>
 
               <dl className="mt-8 grid grid-cols-1  gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features_qsolutionllc.map((feature) => (
-                  <div key={feature.name} className="border-t border-as-green pt-4">
+                  <div key={feature.name} className="border-t border-primary/20 pt-4">
                     <dt className="font-medium text-gray-900">{feature.name}</dt>
-                    <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
+                    <dd className="mt-2 text-sm text-gray-600">{feature.description}</dd>
                   </div>
                 ))}
               </dl>
@@ -70,7 +69,7 @@ const WorkDone = () => {
               <img
                 src="/arieshelby-qsolution-website.png"
                 alt="arieshelby-qsolution-website"
-                className="rounded-lg bg-gray-100 hover:scale-150 transition duration-500 cursor-pointer object-cover"
+                className="rounded-lg bg-gray-50 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
             </div>
           </div>
@@ -81,18 +80,18 @@ const WorkDone = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-2 sm:px-6 sm:py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
               <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">02. Masomo Portal</h2>
-              <p className="mt-4 text-gray-500">
+              <p className="mt-4 text-gray-600">
               Masomo Portal is an Online Learning Platform focused on Skills, Passion and Talent Development for children aged between 6 and 18 years old
               </p>
-              <p className="mt-4 text-gray-500">
-              Link: <a className="text-blue-700 hover:font-bold" href='https://masomoportal.com/'>masomoportal.com</a>
+              <p className="mt-4 text-gray-600">
+              Link: <a className="text-primary hover:font-bold" href='https://masomoportal.com/'>masomoportal.com</a>
               </p>
 
               <dl className="mt-8 grid grid-cols-1  gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features.map((feature) => (
-                  <div key={feature.name} className="border-t border-as-green pt-4">
+                  <div key={feature.name} className="border-t border-primary/20 pt-4">
                     <dt className="font-medium text-gray-900">{feature.name}</dt>
-                    <dd className="mt-2 text-sm text-gray-500">{feature.description}</dd>
+                    <dd className="mt-2 text-sm text-gray-600">{feature.description}</dd>
                   </div>
                 ))}
               </dl>
@@ -101,27 +100,27 @@ const WorkDone = () => {
               <img
                 src="/arieshelby_masomo_portal_001.png"
                 alt="arieshelby_masomoportal."
-                className="rounded-lg bg-gray-100 hover:scale-150 transition duration-500 cursor-pointer object-cover"
+                className="rounded-lg bg-gray-50 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
             </div>
           </div>
         </div>
-        <div className="bg-white mt-16 pt-8">
+        <div className="mt-16 pt-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-2 sm:px-6 sm:py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
               <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">03. Alexadashcams</h2>
-              <p className="mt-4 text-gray-500">
+              <p className="mt-4 text-gray-600">
                 An online Car dashcam selling system
               </p>
-              <p className="mt-4 text-gray-500">
-              Link: <a className="text-blue-700 hover:font-bold" href='https://alexadashcams.co.ke'>alexadashcams.co.ke</a>
+              <p className="mt-4 text-gray-600">
+              Link: <a className="text-primary hover:font-bold" href='https://alexadashcams.co.ke'>alexadashcams.co.ke</a>
               </p>
 
               <dl className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features_alexadashcams.map((features_alexadashcam) => (
-                  <div key={features_alexadashcam.name} className="border-t border-as-green pt-4">
+                  <div key={features_alexadashcam.name} className="border-t border-primary/20 pt-4">
                     <dt className="font-medium text-gray-900">{features_alexadashcam.name}</dt>
-                    <dd className="mt-2 text-sm text-gray-500">{features_alexadashcam.description}</dd>
+                    <dd className="mt-2 text-sm text-gray-600">{features_alexadashcam.description}</dd>
                   </div>
                 ))}
               </dl>
@@ -130,26 +129,26 @@ const WorkDone = () => {
               <img
                 src="/alexadashcams_01.png"
                 alt="arieshelby_alexadashcams"
-                className="rounded-lg bg-gray-100 hover:scale-150 transition duration-500 cursor-pointer object-cover"
+                className="rounded-lg bg-gray-50 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
             </div>
           </div>
         </div>
 
 
-        <div className="bg-white mt-16 pt-8">
+        <div className="mt-16 pt-8">
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-2 sm:px-6 sm:py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
               <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">04. ZamilFarms</h2>
-              <p className="mt-4 text-gray-500">
-              Link: <a className="text-blue-700 hover:font-bold" href='https://alexadashcams.co.ke'>zamilfarms.com</a>
+              <p className="mt-4 text-gray-600">
+              Link: <a className="text-primary hover:font-bold" href='https://alexadashcams.co.ke'>zamilfarms.com</a>
               </p>
 
               <dl className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features_zamilfarms.map((features_zamilfarm) => (
-                  <div key={features_zamilfarm.name} className="border-t border-as-green pt-4">
+                  <div key={features_zamilfarm.name} className="border-t border-primary/20 pt-4">
                     <dt className="font-medium text-gray-900">{features_zamilfarm.name}</dt>
-                    <dd className="mt-2 text-sm text-gray-500">{features_zamilfarm.description}</dd>
+                    <dd className="mt-2 text-sm text-gray-600">{features_zamilfarm.description}</dd>
                   </div>
                 ))}
               </dl>
@@ -158,7 +157,7 @@ const WorkDone = () => {
               <img
                 src="/arieshelby_zamilfarms.png"
                 alt="arieshelb_zamilfarms"
-                className="rounded-lg bg-gray-100 hover:scale-150 transition duration-500 cursor-pointer object-cover"
+                className="rounded-lg bg-gray-50 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
              
             </div>

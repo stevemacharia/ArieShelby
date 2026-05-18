@@ -1,61 +1,43 @@
-'use client';
-import React from 'react'
-import { Typography } from "@material-tailwind/react";
+import Link from 'next/link'
+import { NAV_LINKS, SITE } from '@/constants'
 
-const Footer = () => {
+export default function Footer() {
   return (
-    <footer className="w-full bg-white p-8">
-      <div className="flex flex-row flex-wrap items-center justify-center gap-y-6 gap-x-12 bg-white text-center md:justify-between">
-        <img src="/AS_LOGO_BLACK.png" alt="logo-ct" className="w-20" />
-        <ul className="flex flex-wrap items-center gap-y-2 gap-x-8">
-          <li>
-            <Typography
-              as="a"
-              href="/WebDevelopment"
-              color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
-            >
-              Solutions
-            </Typography>
-          </li>
-          <li>
-            <Typography
-              as="a"
-              href="/VisualMedia"
-              color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
-            >
-              Photography
-            </Typography>
-          </li>
-          <li>
-            <Typography
-              as="a"
-              href="#"
-              color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
-            >
-              About Us
-            </Typography>
-          </li>
-          <li>
-            <Typography
-              as="a"
-              href="/OtherServices"
-              color="blue-gray"
-              className="font-normal transition-colors hover:font-bold focus:text-yellow2"
-            >
-              Other Services
-            </Typography>
-          </li>
-        </ul>
+    <footer className="border-t border-gray-100 bg-white">
+      <div className="mx-auto max-w-7xl px-6 py-14 lg:px-8">
+        <div className="grid gap-12 md:grid-cols-3">
+          <div>
+            <img src="/AS_LOGO_BLACK.png" alt={SITE.name} className="h-8" />
+            <p className="mt-4 max-w-xs text-sm text-gray-600">
+              Building modern digital systems and creative brands for businesses
+              across Kenya and beyond.
+            </p>
+          </div>
+          <div>
+            <p className="font-semibold text-gray-900">Navigate</p>
+            <ul className="mt-4 space-y-2">
+              {NAV_LINKS.map((l) => (
+                <li key={l.label}>
+                  <Link
+                    href={l.href}
+                    className="text-sm text-gray-600 hover:text-primary"
+                  >
+                    {l.label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div>
+            <p className="font-semibold text-gray-900">Contact</p>
+            <p className="mt-4 text-sm text-gray-600">{SITE.email}</p>
+            <p className="text-sm text-gray-600">{SITE.phone}</p>
+          </div>
+        </div>
+        <p className="mt-12 border-t border-gray-100 pt-8 text-center text-sm text-gray-500">
+          © {new Date().getFullYear()} {SITE.name}. All rights reserved.
+        </p>
       </div>
-      <hr className="my-8 border-blue-gray-50" />
-      <Typography color="blue-gray" className="text-center font-normal">
-        &copy; 2023 ARIESHELBY
-      </Typography>
     </footer>
   )
 }
-
-export default Footer

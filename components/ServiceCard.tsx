@@ -1,62 +1,60 @@
-const callouts = [
-    {
-      name: 'Solutions & Innovations',
-      description: 'Web & System Development',
-      imageSrc: '/as_web_development.png',
-      imageAlt: 'Arieshelby solutions & innovations',
-      href: '/WebDevelopment',
-    },
-    {
-      name: 'Visual Media',
-      description: 'Photography & Cinematography',
-      imageSrc: '/as_photogrphy.jpg',
-      imageAlt: 'Arieshelby visual media',
-      href: '/VisualMedia',
-    },
-    {
-      name: 'Our design speaks your brand language  ',
-      description: 'Branding & Design',
-      imageSrc: '/arieshelby_branding_and_design.jpg',
-      imageAlt: 'Arieshelby branding and design.',
-      href: '#',
-    },
-  ]
-
-
+import Link from 'next/link'
+import { SERVICES } from '@/constants'
 
 const ServiceCard = () => {
   return (
-      <>
-    <div className="bg-white">
-      <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
-        <div className="mx-auto max-w-2xl lg:max-w-none">
-          <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
-            {callouts.map((callout) => (
-              <div key={callout.name} className="group relative">
-                <div className="relative h-80 w-full overflow-hidden rounded-lg bg-white sm:aspect-h-1 sm:aspect-w-2 lg:aspect-h-1 lg:aspect-w-1 group-hover:opacity-75 sm:h-64">
-                  <img
-                    src={callout.imageSrc}
-                    alt={callout.imageAlt}
-                    className="h-full w-full object-cover object-center"
-                  />
-                </div>
-                <h3 className="mt-6 text-sm text-gray-500">
-                  <a href={callout.href}>
-                    <span className="absolute inset-0" />
-                    {callout.name}
-                  </a>
-                </h3>
-                <p className="text-base font-semibold text-gray-900">{callout.description}</p>
-              </div>
-            ))}
+    <div className="mt-12 grid gap-8 lg:grid-cols-3">
+      {SERVICES.map((service) => (
+        <Link
+          key={service.name}
+          href={service.href}
+          className="group glass-card overflow-hidden"
+        >
+          <div className="relative h-52 overflow-hidden">
+            <img
+              src={service.imageSrc}
+              alt={service.imageAlt}
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent" />
           </div>
-        </div>
-      </div>
-
-
+          <div className="p-6">
+            <div className="flex flex-wrap gap-2">
+              {service.tags.map((tag) => (
+                <span
+                  key={tag}
+                  className="rounded-md bg-primary-muted px-2 py-0.5 text-xs font-medium text-primary"
+                >
+                  {tag}
+                </span>
+              ))}
+            </div>
+            <h3 className="mt-4 text-xl font-semibold text-gray-900 transition-colors group-hover:text-primary">
+              {service.name}
+            </h3>
+            <p className="mt-2 text-sm leading-relaxed text-gray-600">
+              {service.description}
+            </p>
+            <span className="mt-4 inline-flex items-center text-sm font-medium text-primary">
+              Learn more
+              <svg
+                className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M9 5l7 7-7 7"
+                />
+              </svg>
+            </span>
+          </div>
+        </Link>
+      ))}
     </div>
-    </>
-    
   )
 }
 

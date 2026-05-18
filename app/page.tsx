@@ -1,18 +1,21 @@
-import Image from 'next/image'
-import Hero from '@/components/Hero'
-import Aboutus from '@/components/Aboutus'
-import Services from '@/components/Services'
-import Header from '@/components/Header'
-import OurWork from '@/components/OurWork'
+import HeroHome from '@/components/home/HeroHome'
+import FeaturesGrid from '@/components/home/FeaturesGrid'
+import SolutionsPillars from '@/components/home/SolutionsPillars'
+import ShowcaseAlternating from '@/components/home/ShowcaseAlternating'
+import SystemsDoneSection from '@/components/home/SystemsDoneSection'
+import ClientsSection from '@/components/home/ClientsSection'
+import ContactCTA from '@/components/home/ContactCTA'
 
 export default function Home() {
   return (
     <>
-    <Hero/>
-    <Aboutus/>
-    <Services/>
-    <Header/>
-    <OurWork/>
+      <HeroHome />
+      <FeaturesGrid />
+      <SolutionsPillars />
+      <ShowcaseAlternating />
+      <SystemsDoneSection />
+      <ClientsSection />
+      <ContactCTA />
     </>
   )
 }
