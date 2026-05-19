@@ -2,8 +2,8 @@ export const SITE = {
   name: 'Arieshelby',
   tagline: 'Corporate technology studio',
   email: 'info@arieshelby.com',
-  phone: '+254 745 099 932',
-  phoneHref: 'tel:+254745099932',
+  phone: '+254 722 599 431',
+  phoneHref: 'tel:+254722599431',
 }
 
 export const NAV_LINKS = [
@@ -15,36 +15,28 @@ export const NAV_LINKS = [
 ]
 
 export const HERO_STATS = [
-  { value: '15+', label: 'Systems delivered' },
-  { value: '6+', label: 'Industries served' },
   { value: '3', label: 'Core practices' },
   { value: '24/7', label: 'Support available' },
 ]
 
 export const FEATURES = [
   {
-    title: 'Enterprise-grade architecture',
+    title: 'Scalable & Secure Engineering',
     description:
-      'Scalable backends, secure APIs, and cloud-ready deployments built for real business operations.',
+      'We build reliable, scalable systems with secure APIs and infrastructure ready for modern cloud environments, tailored to real business demands.',
     icon: 'architecture',
   },
   {
-    title: 'Rapid product delivery',
+    title: 'Structured & Agile Delivery Process',
     description:
-      'Agile sprints, clear milestones, and transparent communication from discovery to launch.',
+      'Our workflow is efficient and well-organized, guided by agile practices, defined milestones, and steady communication throughout the entire project.',
     icon: 'delivery',
   },
   {
-    title: 'Brand-aligned experiences',
+    title: 'Unified Brand Experience',
     description:
-      'Interfaces and media that reflect your identity — consistent across web, mobile, and print.',
+      'We ensure every digital product and creative output reflects your brand identity consistently across web, mobile, photography, videography, and design.',
     icon: 'brand',
-  },
-  {
-    title: 'Ongoing partnership',
-    description:
-      'Maintenance, upgrades, and IT consultancy so your systems evolve with your business.',
-    icon: 'support',
   },
 ]
 
@@ -54,7 +46,7 @@ export const SOLUTION_PILLARS = [
     label: '01 — Digital Systems',
     title: 'Custom software for modern businesses',
     description:
-      'We design and build web platforms, internal tools, HR systems, e-commerce stores, and learning management systems — engineered for reliability, security, and growth.',
+      'We create and develop web platforms, internal business tools, HR systems, online stores, and learning management systems, all built to be secure, dependable, and ready to scale as your business grows.',
     image:
       'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80',
     href: '/WebDevelopment',
@@ -65,7 +57,7 @@ export const SOLUTION_PILLARS = [
     label: '02 — Creative Media',
     title: 'Visual storytelling that converts',
     description:
-      'Photography, cinematography, and content production for campaigns, products, and corporate communications — crafted to elevate your brand presence.',
+      'We provide photography, cinematography, livestreaming, and content production for campaigns, products, and corporate communications, designed to strengthen and elevate your brand presence.',
     image:
       'https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80',
     href: '/VisualMedia',
@@ -76,7 +68,7 @@ export const SOLUTION_PILLARS = [
     label: '03 — Brand Design',
     title: 'Identity systems with lasting impact',
     description:
-      'Logo design, environmental branding, UI/UX, and print collateral — minimal, memorable, and built to work across every touchpoint.',
+      'We provide design services covering brand identity, UI/UX, and print materials, all crafted to be clean, impactful, and consistent across every touchpoint. We also design business premises and deliver custom creative solutions for anything you need designed, ensuring every detail reflects your brand and purpose.',
     image:
       'https://images.unsplash.com/photo-1561070791-2526d30994b5?auto=format&fit=crop&w=1200&q=80',
     href: '/OtherServices',
@@ -107,7 +99,7 @@ export const SHOWCASE_FEATURES = [
     bullets: [
       'Live analytics views',
       'Mobile-responsive admin',
-      'Integrations with your stack',
+      'Integrations with your systems',
     ],
     image:
       'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=900&q=80',
@@ -249,19 +241,14 @@ export const TECH_STACK = [
   'Django',
   'Python',
   'PostgreSQL',
-  'AWS',
   'Tailwind CSS',
   'Three.js',
-  'Docker',
 ]
 
 export const CLIENTS = [
   { name: 'Caritas MFB', href: '/OtherServices', logo: '/arieshelby-caritas-mfb-logo.png' },
-  { name: 'Q Solution LLC', href: 'https://qsolutionllc.com', logo: '/qsolution_logo.png' },
   { name: 'Masomo Portal', href: 'https://masomoportal.com', logo: '/masomoportal_logo.png' },
   { name: 'Alexa Dashcams', href: 'https://alexadashcams.co.ke', logo: '/alexa-dashcam-logo.png' },
-  { name: 'Zamil Farms', href: 'https://zamilfarms.com', logo: '/zamil_farms_logo.png' },
-  { name: 'Greeneseal', href: 'https://greeneseal.com', logo: '/greeneseal_limited.png' },
 ]
 
 export const MEDIA_CATEGORIES = [
