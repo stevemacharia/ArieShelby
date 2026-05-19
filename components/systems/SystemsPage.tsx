@@ -22,7 +22,7 @@ export default function SystemsPage() {
             Enterprise system solutions for business
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-gray-600">
-            Custom software, integrations, and product development — from HR
+            Custom software, integrations, and product development, from HR
             platforms to e-commerce and learning systems.
           </p>
           <Link href="#hr-product" className="btn-primary mt-10">
