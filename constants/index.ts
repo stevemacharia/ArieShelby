@@ -355,14 +355,14 @@ export const BRAND_PROJECTS = [
     title: 'Retail packaging',
     subtitle: 'Product line refresh',
     image:
-      'https://images.unsplash.com/photo-1607083206869-4caa2a7a0a12?auto=format&fit=crop&w=900&q=80',
+      '/package_design.jpg',
     href: '#',
   },
   {
     title: 'Event collateral',
     subtitle: 'Signage & print suite',
     image:
-      'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=900&q=80',
+      'caritas_3d.png',
     href: '#',
   },
   {
@@ -376,7 +376,7 @@ export const BRAND_PROJECTS = [
     title: 'Annual report',
     subtitle: 'Editorial layout design',
     image:
-      'https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&w=900&q=80',
+      '/annual_report_design.jpg',
     href: '#',
   },
 ]
