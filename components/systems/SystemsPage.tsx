@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import SectionHeading from '@/components/ui/SectionHeading'
-import { SYSTEMS_DONE, TECH_SERVICES } from '@/constants'
+import { HERO_STATS, SYSTEMS_DONE, TECH_SERVICES } from '@/constants'
 import WorkDone from '@/components/WorkDone'
 import {
   Card,
@@ -14,22 +14,47 @@ import {
 export default function SystemsPage() {
   return (
     <div className="bg-[#fafcfb]">
-      <header className="relative overflow-hidden border-b border-gray-100 bg-white pt-28">
-        <div className="absolute inset-0 grid-bg opacity-50" />
-        <div className="relative mx-auto max-w-7xl px-6 py-20 lg:px-8 lg:py-28">
-          <p className="section-label">Digital Systems</p>
-          <h1 className="mt-4 max-w-3xl text-4xl font-bold text-gray-900 sm:text-5xl">
-            Enterprise system solutions for business
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg text-gray-600">
-            Custom software, integrations, and product development, from HR
-            platforms to e-commerce and learning systems.
-          </p>
-          <Link href="#hr-product" className="btn-primary mt-10">
-            View HR System
-          </Link>
+      <section className="relative overflow-hidden border-b border-white/10">
+        <div className="absolute inset-0" aria-hidden>
+          <img
+            src="/DSC09763.jpg"
+            alt=""
+            className="h-full w-full object-cover"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#001809]/90 via-[#001809]/75 to-[#001809]/55 bg-blend-multiply" />
         </div>
-      </header>
+
+        <div className="relative z-10 mx-auto flex max-w-4xl flex-col items-center px-6 pb-16 pt-28 text-center lg:px-8 lg:pb-20 lg:pt-32">
+          <h1 className="mt-0 text-2xl font-extrabold leading-[1.08] tracking-tight text-white sm:text-3xl lg:text-[3.25rem] lg:leading-[1.05]">
+            Enterprise{' '}
+            <span className="text-as-yellow">digital systems</span> for your
+            business
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg leading-relaxed text-white/90">
+            Custom software, integrations, and product development, from HR
+            platforms to e-commerce and learning systems, all engineered with
+            the same care and clarity you see across Arieshelby.
+          </p>
+          <div className="mt-10">
+            <Link href="#hr-product" className="btn-primary bg-white">
+              View HR System
+            </Link>
+          </div>
+
+          <div className="mt-8 grid w-full max-w-2xl grid-cols-2 gap-2 border-t border-white/20 pt-4 sm:grid-cols-2">
+            {HERO_STATS.map((stat) => (
+              <div key={stat.label}>
+                <p className="text-2xl font-bold text-as-yellow sm:text-3xl">
+                  {stat.value}
+                </p>
+                <p className="mt-1 text-xs font-medium text-white/80 sm:text-sm">
+                  {stat.label}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
 
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
