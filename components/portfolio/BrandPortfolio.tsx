@@ -3,19 +3,38 @@ import { BRAND_PROJECTS, CLIENTS } from '@/constants'
 
 export default function BrandPortfolio() {
   return (
-    <div className="min-h-screen bg-white pt-24">
-      <header className="mx-auto max-w-7xl px-6 py-20 text-center lg:px-8 lg:py-28">
-        <p className="section-label">Brand Design</p>
-        <h1 className="mt-4 text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl lg:text-6xl">
-          Simple and clean
-        </h1>
-        <p className="mx-auto mt-6 max-w-xl text-lg text-gray-600">
-          Minimalistic portfolio to showcase your work — identity systems,
-          environmental branding, and print that speaks quietly and clearly.
-        </p>
-      </header>
+    <div className="min-h-screen bg-white">
+      <section className="relative min-h-[60vh] overflow-hidden">
+        <div className="absolute inset-0" aria-hidden>
+          <video
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover"
+          >
+            <source
+              src="/caritas_branding_IMG_3070.mp4"
+              type="video/mp4"
+            />
+          </video>
+          <div className="absolute inset-0 bg-gradient-to-b from-[#001809]/90 via-[#001809]/75 to-[#001809]/55 bg-blend-multiply" />
+        </div>
 
-      <div className="mx-auto max-w-7xl px-6 pb-8 lg:px-8">
+        <div className="relative z-10 mx-auto flex min-h-[60vh] max-w-4xl flex-col items-center justify-center px-6 pb-12 pt-28 text-center lg:px-8">
+          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-as-yellow">
+            Brand Design
+          </p>
+          <h1 className="mt-4 text-4xl font-bold leading-[1.08] tracking-tight text-white sm:text-5xl lg:text-6xl lg:leading-[1.05]">
+            Simple and clean
+          </h1>
+          <p className="mx-auto mt-6 max-w-xl text-lg leading-relaxed text-white/90">
+            We offer branding, UI/UX, print design, and business space branding creating clean, impactful designs that make your brand stand out across every touchpoint.
+          </p>
+        </div>
+      </section>
+
+      <div className="mx-auto max-w-7xl px-6 py-16 pb-8 lg:px-8">
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {BRAND_PROJECTS.map((project) => (
             <Link

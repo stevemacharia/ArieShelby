@@ -44,7 +44,7 @@ const Gallery = () => {
           <div>
             <img
               className="h-auto max-w-full rounded-lg object-cover object-center "
-              src="https://docs.material-tailwind.com/img/team-3.jpg"
+              src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2762&q=80"
               alt="gallery-photo"
             />
           </div>
@@ -60,7 +60,7 @@ const Gallery = () => {
           <div>
             <img
               className="h-auto max-w-full rounded-lg object-cover object-center "
-              src="https://docs.material-tailwind.com/img/team-3.jpg"
+              src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&auto=format&fit=crop&w=2762&q=80"
               alt="gallery-photo"
             />
           </div>

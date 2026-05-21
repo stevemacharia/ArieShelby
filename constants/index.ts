@@ -102,7 +102,7 @@ export const SHOWCASE_FEATURES = [
       'Integrations with your systems',
     ],
     image:
-      'https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=900&q=80',
+      '/118074.jpg',
     reverse: true,
   },
 ]
@@ -116,8 +116,8 @@ export const SYSTEMS_DONE = [
     description:
       'A complete HR management platform for employee records, leave management, payroll workflows, and organizational reporting — built for SMEs and growing enterprises.',
     image:
-      'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=80',
-    href: 'https://hr.arieshelby.com',
+      '/118074.jpg',
+    href: '#',
     tags: ['HR', 'Dashboard', 'SaaS'],
     stats: ['Employee portal', 'Leave & attendance', 'Admin analytics'],
   },
@@ -129,7 +129,7 @@ export const SYSTEMS_DONE = [
     description:
       'Online learning platform for skills and talent development — admin dashboard, accounts, invoicing, and notifications.',
     image: '/arieshelby_masomo_portal_001.png',
-    href: 'https://masomoportal.com',
+    href: '#',
     tags: ['LMS', 'Django', 'Bootstrap'],
     stats: ['Student portal', 'Course management', 'Payments'],
   },
@@ -141,7 +141,7 @@ export const SYSTEMS_DONE = [
     description:
       'Consultancy corporate website with multi-page structure, contact flows, and modern UI built on Next.js.',
     image: '/arieshelby-qsolution-website.png',
-    href: 'https://qsolutionllc.com',
+    href: '#',
     tags: ['Next.js', 'Tailwind', 'Corporate'],
     stats: ['Multi-page', 'SEO-ready', 'Contact forms'],
   },
@@ -153,7 +153,7 @@ export const SYSTEMS_DONE = [
     description:
       'Online store for automotive dashcams with product catalog, cart, and admin order management.',
     image: '/alexadashcams_01.png',
-    href: 'https://alexadashcams.co.ke',
+    href: '#',
     tags: ['E-commerce', 'Django', 'Payments'],
     stats: ['Product catalog', 'Checkout', 'Admin panel'],
   },

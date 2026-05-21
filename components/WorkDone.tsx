@@ -52,9 +52,7 @@ const WorkDone = () => {
               <p className="mt-4 text-gray-600">
               QSolution&aposs corporate website specializes in consultancy services, offering tailored solutions for clients&apos needs. It serves as a comprehensive platform, providing insights and resources to optimize business strategies and foster growth.
               </p>
-              <p className="mt-4 text-gray-600">
-              Link: <a className="text-primary hover:font-bold" href='https://qsolutionllc.com' >qsolutionllc.com</a>
-              </p>
+
 
               <dl className="mt-8 grid grid-cols-1  gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features_qsolutionllc.map((feature) => (
@@ -83,9 +81,6 @@ const WorkDone = () => {
               <p className="mt-4 text-gray-600">
               Masomo Portal is an Online Learning Platform focused on Skills, Passion and Talent Development for children aged between 6 and 18 years old
               </p>
-              <p className="mt-4 text-gray-600">
-              Link: <a className="text-primary hover:font-bold" href='https://masomoportal.com/'>masomoportal.com</a>
-              </p>
 
               <dl className="mt-8 grid grid-cols-1  gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features.map((feature) => (
@@ -112,9 +107,7 @@ const WorkDone = () => {
               <p className="mt-4 text-gray-600">
                 An online Car dashcam selling system
               </p>
-              <p className="mt-4 text-gray-600">
-              Link: <a className="text-primary hover:font-bold" href='https://alexadashcams.co.ke'>alexadashcams.co.ke</a>
-              </p>
+
 
               <dl className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features_alexadashcams.map((features_alexadashcam) => (
@@ -140,9 +133,7 @@ const WorkDone = () => {
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-2 sm:px-6 sm:py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
               <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">04. ZamilFarms</h2>
-              <p className="mt-4 text-gray-600">
-              Link: <a className="text-primary hover:font-bold" href='https://alexadashcams.co.ke'>zamilfarms.com</a>
-              </p>
+
 
               <dl className="mt-8 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
                 {features_zamilfarms.map((features_zamilfarm) => (

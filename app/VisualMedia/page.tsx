@@ -1,4 +1,4 @@
-import MediaPortfolio from '@/components/portfolio/MediaPortfolio'
+import VisualMediaComingSoon from '@/components/portfolio/VisualMediaComingSoon'
 
 export const metadata = {
   title: 'Creative Media | Arieshelby',
@@ -6,5 +6,5 @@ export const metadata = {
 }
 
 export default function VisualMediaPage() {
-  return <MediaPortfolio />
+  return <VisualMediaComingSoon />
 }

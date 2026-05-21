@@ -4,12 +4,6 @@ import Link from 'next/link'
 import SectionHeading from '@/components/ui/SectionHeading'
 import { HERO_STATS, SYSTEMS_DONE, TECH_SERVICES } from '@/constants'
 import WorkDone from '@/components/WorkDone'
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-} from '@material-tailwind/react'
 
 export default function SystemsPage() {
   return (
@@ -65,26 +59,24 @@ export default function SystemsPage() {
           />
           <div className="mt-12 grid gap-8 lg:grid-cols-3">
             {TECH_SERVICES.map((service) => (
-              <Card
+              <article
                 key={service.name}
-                className="overflow-hidden border border-gray-100 bg-white shadow-sm"
+                className="overflow-hidden rounded-2xl border border-gray-100 bg-white shadow-sm"
               >
-                <CardHeader floated={false} shadow={false} className="m-0">
-                  <img
-                    src={service.imageSrc}
-                    alt={service.imageAlt}
-                    className="h-48 w-full object-cover"
-                  />
-                </CardHeader>
-                <CardBody>
-                  <Typography variant="h5" className="font-bold text-gray-900">
+                <img
+                  src={service.imageSrc}
+                  alt={service.imageAlt}
+                  className="h-48 w-full object-cover"
+                />
+                <div className="p-6">
+                  <h3 className="text-xl font-bold text-gray-900">
                     {service.name}
-                  </Typography>
-                  <Typography className="mt-2 text-sm text-gray-600">
+                  </h3>
+                  <p className="mt-2 text-sm text-gray-600">
                     {service.description}
-                  </Typography>
-                </CardBody>
-              </Card>
+                  </p>
+                </div>
+              </article>
             ))}
           </div>
         </div>
