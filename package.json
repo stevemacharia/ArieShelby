@@ -10,16 +10,10 @@
   },
   "dependencies": {
     "@headlessui/react": "^1.7.17",
-    "@headlessui/vue": "^1.7.16",
     "@heroicons/react": "^2.0.18",
-    "@heroicons/vue": "^2.0.18",
-    "@react-three/drei": "^9.114.3",
-    "@react-three/fiber": "^8.17.10",
-    "@types/three": "^0.184.1",
     "next": "^14.0.3",
     "react": "^18",
-    "react-dom": "^18",
-    "three": "^0.184.0"
+    "react-dom": "^18"
   },
   "devDependencies": {
     "@types/node": "^20",
