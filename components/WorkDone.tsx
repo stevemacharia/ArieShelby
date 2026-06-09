@@ -1,6 +1,6 @@
 import React from 'react'
 
-const features_qsolutionllc = [
+const features_becklaine = [
   { name: 'Corporate site', description: '' },
   { name: 'Features', description: 'UI/UX Friendly, Contact form, Multiple pages' },
   { name: 'Language', description: 'Next Js' },
@@ -48,14 +48,14 @@ const WorkDone = () => {
 
           <div className="mx-auto grid max-w-2xl grid-cols-1 items-center gap-x-8 gap-y-16 px-4 py-2 sm:px-6 sm:py-4 lg:max-w-7xl lg:grid-cols-2 lg:px-8">
             <div>
-              <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">01. Q Solution LLC</h2>
+              <h2 className="text-1xl font-bold tracking-tight text-gray-900 sm:text-3xl">01. Becklaine</h2>
               <p className="mt-4 text-gray-600">
-              QSolution&aposs corporate website specializes in consultancy services, offering tailored solutions for clients&apos needs. It serves as a comprehensive platform, providing insights and resources to optimize business strategies and foster growth.
+                Becklaine Ventures offers a comprehensive suite of marketing services and modern communication strategies designed to cater to and elevate your brand.
               </p>
 
 
               <dl className="mt-8 grid grid-cols-1  gap-x-6 gap-y-10 sm:grid-cols-2 sm:gap-y-16 lg:gap-x-8">
-                {features_qsolutionllc.map((feature) => (
+                {features_becklaine.map((feature) => (
                   <div key={feature.name} className="border-t border-primary/20 pt-4">
                     <dt className="font-medium text-gray-900">{feature.name}</dt>
                     <dd className="mt-2 text-sm text-gray-600">{feature.description}</dd>
@@ -65,8 +65,8 @@ const WorkDone = () => {
             </div>
             <div className="grid grid-cols-1 grid-rows-1 gap-4 sm:gap-6 lg:gap-8">
               <img
-                src="/arieshelby-qsolution-website.png"
-                alt="arieshelby-qsolution-website"
+                src="/arieshelby-becklaine-website.jpeg"
+                alt="arieshelby-becklaine-website"
                 className="rounded-lg bg-gray-50 hover:scale-150 transition duration-500 cursor-pointer object-cover"
               />
             </div>

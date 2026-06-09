@@ -2,6 +2,7 @@ export const SITE = {
   name: 'Arieshelby',
   tagline: 'Corporate technology studio',
   email: 'info@arieshelby.com',
+  email_2: 'arieshelby@gmail.com',
   phone: '+254 722 599 431',
   phoneHref: 'tel:+254722599431',
 }
@@ -117,7 +118,7 @@ export const SYSTEMS_DONE = [
       'A complete HR management platform for employee records, leave management, payroll workflows, and organizational reporting — built for SMEs and growing enterprises.',
     image:
       '/118074.jpg',
-    href: '#',
+    href: 'https://hr.arieshelby.com',
     tags: ['HR', 'Dashboard', 'SaaS'],
     stats: ['Employee portal', 'Leave & attendance', 'Admin analytics'],
   },
@@ -134,14 +135,14 @@ export const SYSTEMS_DONE = [
     stats: ['Student portal', 'Course management', 'Payments'],
   },
   {
-    id: 'qsolution',
+    id: 'becklaine',
     featured: false,
-    name: 'Q Solution LLC',
+    name: 'BECKLAINE VENTURES',
     category: 'Corporate',
     description:
       'Consultancy corporate website with multi-page structure, contact flows, and modern UI built on Next.js.',
-    image: '/arieshelby-qsolution-website.png',
-    href: '#',
+    image: '/arieshelby-becklaine-website.jpeg',
+    href: 'https://www.becklaine.com',
     tags: ['Next.js', 'Tailwind', 'Corporate'],
     stats: ['Multi-page', 'SEO-ready', 'Contact forms'],
   },
@@ -247,8 +248,8 @@ export const TECH_STACK = [
 
 export const CLIENTS = [
   { name: 'Caritas MFB', href: '/OtherServices', logo: '/arieshelby-caritas-mfb-logo.png' },
-  { name: 'Masomo Portal', href: 'https://masomoportal.com', logo: '/masomoportal_logo.png' },
-  { name: 'Alexa Dashcams', href: 'https://alexadashcams.co.ke', logo: '/alexa-dashcam-logo.png' },
+  { name: 'Becklaine Ventures', href: 'https://www.becklaine.com', logo: '/becklaine_logo_black.png' },
+  { name: 'Alexa Dashcams', href: '#', logo: '/alexa-dashcam-logo.png' },
 ]
 
 export const MEDIA_CATEGORIES = [

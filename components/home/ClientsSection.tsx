@@ -38,7 +38,7 @@ export default function ClientsSection() {
               rel={
                 client.href.startsWith('http') ? 'noopener noreferrer' : undefined
               }
-              className="flex justify-center opacity-70 transition hover:opacity-100 hover:scale-105"
+              className="flex justify-center opacity-70 transition hover:opacity-100 hover:scale-110"
             >
               <img
                 src={client.logo}
